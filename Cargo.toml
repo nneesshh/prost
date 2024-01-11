@@ -47,7 +47,7 @@ no-recursion-limit = []
 std = []
 
 [dependencies]
-bytes = { version = "1", path = "../bytes", default-features = false }
+bytes = { version = "1", default-features = false }
 prost-derive = { version = "0.12.1", path = "prost-derive", optional = true }
 
 [dev-dependencies]
